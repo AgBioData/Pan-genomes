@@ -1,2 +1,3 @@
 # Pan-genomes
-Repository for Pan-Genome Working Group resources
+Repository for the AgBioData Pan-Genome Working Group
+
