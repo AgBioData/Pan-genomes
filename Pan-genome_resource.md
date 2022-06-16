@@ -111,7 +111,8 @@ Example showing how this approach can help identify disease resistance genes: \
   **Practical Haplotype Graphs**
    <details>
     <summary>Click for more information</summary>
-    *[More information goes here.]*
+    [ES Buckler et. al., The Practical Haplotype Graph, a platform for storing and using pangenomes for imputation. 2021]
+    ( https://doi.org/10.1101/2021.08.27.457652)
   </details>
  
   **Any help with gene function? GWAS? ???**
