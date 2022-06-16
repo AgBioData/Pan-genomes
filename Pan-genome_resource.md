@@ -30,6 +30,10 @@ As the term "pan-genome" means different things to different people, here are de
 
 Interest in pan-genomes has increased rapidly over the past 10 years or so. Considerable progress has been made in the construction and analysis of pan-genomes, though many big problems remain, such as standards and file formats for archiving and sharing the data, useful visualization and browsing software, and, one could argue, a clear understanding of how pan-genomes can be used to further biological knowledge and the improvement of crops and livestock. Sure, pan-genomes are fascinating from a computational perspective, *but what are they good for*?
 
+A good review of how pangenomes have been used in crop improvement
+[David Edwards et. al., Pangenomics in crop improvement—from coding structural variations to finding regulatory variants with pangenome graphs. Dec. 2021]
+(https://doi.org/10.1002/tpg2.20177)
+
 In short, pan-genomes can help identify differences that make a difference. Studies can be done on multiple scales, ranging from individual genes to local groupings of gene models and rearrangements, to whole pan-genome analyses.
 
 *(Old topic list is below)* \
