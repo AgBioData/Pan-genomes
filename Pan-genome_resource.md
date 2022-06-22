@@ -48,17 +48,22 @@ Analysis of the core, variable, and rare gene models can help reveal information
   **Breeding**
   <details>
     <summary>Click for more information</summary>
+ 
     [ES Buckler et. al., The Practical Haplotype Graph, a platform for storing and using pangenomes for imputation. 2021]
     ( https://doi.org/10.1101/2021.08.27.457652)
+ 
     [Yao Zhou et. al., Graph pangenome captures missing heritability and empowers tomato breeding. June 2022]
     Improved heritablility from 0.33 to 0.41 by including 838 genomes
     ( https://doi.org/10.1038/s41586-022-04808-9)
+ 
     [Nils Stein et. al., The barley pan-genome reveals the hidden legacy of mutation breeding. November 2020]
      barley pan-genome makes previously hidden genetic variation accessible to genetic studies and breeding
     ( https://doi.org/10.1038/s41586-020-2947-8)
+ 
     [David Edwards et. al. Super-Pangenome by Integrating the Wild Side of a Species for Accelerated Crop Improvement. Febuary 2020]
     Crop wild relatives possess unearthed genetic diversity that has been lost during domestication and breeding
     ( https://doi.org/10.1016/j.tplants.2019.10.012)
+ 
     [Rafael Della Coletta et. al., How the pan-genome is changing crop genomics and improvement. January 2021]
     pan-genome has revealed extensive genome content variation among individuals within a species
     ( https://doi.org/10.1186/s13059-020-02224-8 )
