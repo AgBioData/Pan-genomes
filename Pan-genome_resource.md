@@ -1,9 +1,24 @@
 # The AgBioData pan-genome resource #
 
-### Brief history ###
-In bacteria and viruses, the small genomes and proliferation of complete assemblies lead to the development of a number of construction and analysis methods for looking at the full genetic diversity of an organism, along with visualizations. However, these methods and visualizations don't scale well to the larger and more complex plant and animal genomes. New methods have been developed for the human and human model species pan-genomes, which are helpful for animal pan-genomes, but these methods also don't translate easily to plants as animal genomes lack the genomic and diversity complexities that are found in plant genomes.
+<table style="border:none">
+  <tr>
+    <td valign="top">
+      <h3>Brief history</h3>
+      In bacteria and viruses, the small genomes and proliferation of complete assemblies lead to the development of a number of construction and analysis methods for looking at the full genetic diversity of an organism, along with visualizations. However, these methods and visualizations don't scale well to the larger and more complex plant and animal genomes. New methods have been developed for the human and human model species pan-genomes, which are helpful for animal pan-genomes, but these methods also don't translate easily to plants as animal genomes lack the genomic and diversity complexities that are found in plant genomes.
+    </td>
+    <td valign="top" style="white-space:nowrap">
+      <h4>Table of contents</h4>
+      <a href="#terminology">Terminology</a><br>
+      <a href="#uses">What are pan-genomes good for</a><br>
+      <a href="#analysis">Analysis software and pipelines</a><br>
+      <a href="#viz">Visualizing and browsing pan-genomes</a><br>
+      <a href="#archive">Archiving and presenting pan-genome data</a>
+    </td>
+  </tr>
+</table>
 
 
+<a name="terminology"></a>
 ### Terminology ###
 As the term "pan-genome" means different things to different people, here are definitions used in this resource.
 
@@ -21,22 +36,18 @@ As the term "pan-genome" means different things to different people, here are de
   
   **pan-genome analysis**: An analysis carried out on a pan-genome.
   
-  **rare gene models**: gene models that appear in only one or very few annotations in the pan-genome analysis. Also called **dispensible** gene models.
+  **rare gene models**: gene models that appear in only one or very few annotations in the pan-genome analysis. Also called **dispensible** or **orphan** gene models.
   
   **variable gene models**: gene models that appear in a subset of annotations in the pan-genome analysis. Also called **accessory** gene models.
   
 
+<a name="uses"></a>
 ### What are pan-genomes good for anyway? ###
 
 Interest in pan-genomes has increased rapidly over the past 10 years or so. Considerable progress has been made in the construction and analysis of pan-genomes, though many big problems remain, such as standards and file formats for archiving and sharing the data, useful visualization and browsing software, and, one could argue, a clear understanding of how pan-genomes can be used to further biological knowledge and the improvement of crops and livestock. Sure, pan-genomes are fascinating from a computational perspective, *but what are they good for*?
 
-A good review of how pangenomes have been used in crop improvement
-[David Edwards et. al., Pangenomics in crop improvement—from coding structural variations to finding regulatory variants with pangenome graphs. Dec. 2021]
-(https://doi.org/10.1002/tpg2.20177)
-
 In short, pan-genomes can help identify differences that make a difference. Studies can be done on multiple scales, ranging from individual genes to local groupings of gene models and rearrangements, to whole pan-genome analyses.
 
-*(Old topic list is below)* \
   **Comparative genomics, evolution, domestication**
   <details>
     <summary>Click for more information</summary>
@@ -48,31 +59,27 @@ Analysis of the core, variable, and rare gene models can help reveal information
   **Breeding**
   <details>
     <summary>Click for more information</summary>
- 
-    [ES Buckler et. al., The Practical Haplotype Graph, a platform for storing and using pangenomes for imputation. 2021]
-    ( https://doi.org/10.1101/2021.08.27.457652)
- 
-    [Yao Zhou et. al., Graph pangenome captures missing heritability and empowers tomato breeding. June 2022]
-    Improved heritablility from 0.33 to 0.41 by including 838 genomes
-    ( https://doi.org/10.1038/s41586-022-04808-9)
- 
-    [Nils Stein et. al., The barley pan-genome reveals the hidden legacy of mutation breeding. November 2020]
-     barley pan-genome makes previously hidden genetic variation accessible to genetic studies and breeding
-    ( https://doi.org/10.1038/s41586-020-2947-8)
- 
-    [David Edwards et. al. Super-Pangenome by Integrating the Wild Side of a Species for Accelerated Crop Improvement. Febuary 2020]
-    Crop wild relatives possess unearthed genetic diversity that has been lost during domestication and breeding
-    ( https://doi.org/10.1016/j.tplants.2019.10.012)
- 
-    [Rafael Della Coletta et. al., How the pan-genome is changing crop genomics and improvement. January 2021]
-    pan-genome has revealed extensive genome content variation among individuals within a species
-    ( https://doi.org/10.1186/s13059-020-02224-8 )
-  </details>
+    
+Pan-genomes have been used successfully in breeding programs. This paper describes how pan-genomes have revealed extensive genome content variation among individuals within a species: [Rafael Della Coletta et. al., How the pan-genome is changing crop genomics and improvement. January 2021](https://doi.org/10.1186/s13059-020-02224-8)
+
+One common approach makes use of the Practical Haplotype Graph ([ES Buckler et. al., The Practical Haplotype Graph, a platform for storing and using pangenomes for imputation. 2021](https://doi.org/10.1101/2021.08.27.457652))
+
+Some examples:
+
+Improved heritablility in tomato from 0.33 to 0.41 through analyses of 838 genomes ([Yao Zhou et. al., Graph pangenome captures missing heritability and empowers tomato breeding. June 2022](https://doi.org/10.1038/s41586-022-04808-9))
+
+The barley pan-genome makes previously hidden genetic variation accessible to genetic studies and breeding ([Nils Stein et. al., The barley pan-genome reveals the hidden legacy of mutation breeding. November 2020](https://doi.org/10.1038/s41586-020-2947-8))
+
+Crop wild relatives possess unearthed genetic diversity that has been lost during domestication and breeding ([David Edwards et. al. Super-Pangenome by Integrating the Wild Side of a Species for Accelerated Crop Improvement. Febuary 2020](https://doi.org/10.1016/j.tplants.2019.10.012))
+
+   </details>
   
   **Gene function**
   <details>
     <summary>Click for more information</summary>
-Example showing how this approach can help identify disease resistance genes: \
+One approach to determining gene function is to construct pan-genes that include assemblies and annotations that contain characterized genes with the hope that all members of a pan-gene are likely to be serving the same function.
+
+Example showing how pan-genome analyis helped identify disease resistance genes: \
 [Gao, L., Gonda, I., Sun, H. et al. The tomato pan-genome uncovers new genes and a rare allele regulating fruit flavor. Nat Genet 51, 1044–1051 (2019).](https://doi.org/10.1038/s41588-019-0410-2)
 
 *[Add: types of analyses, types of datasets, file formats, and if available: tutorials]*
@@ -87,73 +94,23 @@ The construction of core, variable, and rare genes could be used to create a spe
   </details>
 
 
-<br>
-<div style="color:gray">
-***Old headings:***
-
-  **Identify core (essential), variable (aka accessory), and rare (aka dispensable) gene models through gene family analyses**
-  <details>
-    <summary>Click for more information</summary>
-The analyses creating gene species- or clad-specific gene families typically look at sequence similarity and synteny. This can be helpful in identifying genes that give a particular plant desireable (or undesireable) traits.
-
-*[Link to paper on definition and construction of these?]* 
-
-Example showing how this approach can help identify disease resistance genes: \
-[Gao, L., Gonda, I., Sun, H. et al. The tomato pan-genome uncovers new genes and a rare allele regulating fruit flavor. Nat Genet 51, 1044–1051 (2019).](https://doi.org/10.1038/s41588-019-0410-2)
-  </details>
-  
-  **Comparative genomics, evolution, domestication.**
-   <details>
-    <summary>Click for more information</summary>
-    *[More information goes here.]*
-  </details>
- 
-  **Assessing quality of assemblies and annotations.**
-   <details>
-    <summary>Click for more information</summary>
-    The construction of core, variable, and rare genes could be used to create a species- or clade-specific sort of BUSCO set for assessing the quality of subsequent genome assemblies and annotations.
-  </details>
- 
-  **Genotyping ... to assist breeding?**
-   <details>
-    <summary>Click for more information</summary>
-    *[More information goes here.]*
-  </details>
- 
-  **To both simplify and elaborate information about a species or clade**
-   <details>
-    <summary>Click for more information</summary>
-    *[More information goes here.]*
-  </details>
- 
-  **Practical Haplotype Graphs**
-   <details>
-    <summary>Click for more information</summary>
-    [ES Buckler et. al., The Practical Haplotype Graph, a platform for storing and using pangenomes for imputation. 2021]
-    ( https://doi.org/10.1101/2021.08.27.457652)
-  </details>
- 
-  **Any help with gene function? GWAS? ???**
-  <details>
-    <summary>Click for more information</summary>
-    *[More information goes here.]*
-  </details>
-</div>
-
-
+<a name="analysis"></a>
 ### Analysis software and pipelines ###
-Techniques for construction and analysis of pan-genomes is an active field of research. A good review of the state of pan-genome research as of 2020 can be found in [Vernikos GS. A Review of Pangenome Tools and Recent Studies. 2020 May 1. In: Tettelin H, Medini D, editors. The Pangenome: Diversity, Dynamics and Evolution of Genomes. Cham (CH): Springer; 2020. Available from: https://www.ncbi.nlm.nih.gov/books/NBK558826/](http://dx.crossref.org/10.1007/978-3-030-38281-0_4)
+The construction and analysis of pan-genomes remains a young and rapidly changing field. Nonetheless, well-documented and reproducible pipelines are needed, but rarely found.
 
 [Learn more](Pan-genome_analysis.md)
 
+<a name="viz"></a>
 ### Visualizing and browsing pan-genome data ###
-
-Visualization of pan-genome data is a very active field of research, ranging from very complex "hairball" graph displays, to genome-by-genome comparisons on the gene level.
+Visualization of pan-genome data is a very active field of research. Visualization approaches range from very complex "hairball" graph displays, to comparisons on the gene level across multiple genomes, and from all-by-all views to pair-wise comparisons.
 
 [Learn more](Pan-genome_vis.md)
 
+<a name="archive"></a>
 ### For data resources: archiving and presenting pan-genome data ###
 
 Given that construction, analysis, and visualization software is still rapidly evolving, determining how to archive and present the data presents a significant challenge to data resource personnel.
 
 [Learn more](Pan-genome_data.md)
+
+
