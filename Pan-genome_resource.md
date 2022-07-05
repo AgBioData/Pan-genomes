@@ -81,6 +81,8 @@ One approach to determining gene function is to construct pan-genes that include
 
 Example showing how pan-genome analyis helped identify disease resistance genes: \
 [Gao, L., Gonda, I., Sun, H. et al. The tomato pan-genome uncovers new genes and a rare allele regulating fruit flavor. Nat Genet 51, 1044–1051 (2019).](https://doi.org/10.1038/s41588-019-0410-2)
+  
+As a pangenome captures all gene variants found in the sequenced individuals, it is possible to identify a subset of individuals representing gene absence as well as each diverse haplotype. This subset of individuals can then be assessed to determine the impact of this diversity on crop traits. Pangenomes can also identify genes that lack significant haplotype diversity. In these cases, teh introduction of diversity through mutagenesis or genome editing may be required to assess gene function.
 
 *[Add: types of analyses, types of datasets, file formats, and if available: tutorials]*
   </details>
@@ -88,7 +90,7 @@ Example showing how pan-genome analyis helped identify disease resistance genes:
   **Assembly and annotation quality control**
   <details>
     <summary>Click for more information</summary>
-The construction of core, variable, and rare genes could be used to create a species- or clade-specific sort of BUSCO set for assessing the quality of subsequent genome assemblies and annotations.
+The construction of core, variable, and rare genes could be used to create a species- or clade-specific sort of BUSCO set for assessing the quality of subsequent genome assemblies and annotations. Knowledge of the gene content of a species can support the annotation of related species given  that the majority of gene models are likely to be conserved between closely related species.
 
 *[Add: types of analyses, types of datasets, file formats, sample paper, and if available: tutorials]*
   </details>
@@ -96,7 +98,7 @@ The construction of core, variable, and rare genes could be used to create a spe
 
 <a name="analysis"></a>
 ### Analysis software and pipelines ###
-The construction and analysis of pan-genomes remains a young and rapidly changing field. Nonetheless, well-documented and reproducible pipelines are needed, but rarely found.
+The construction and analysis of pan-genomes remains a young and rapidly changing field. Nonetheless, well-documented and reproducible pipelines are needed, but rarely found. Pipelines that are developed quickly become outdated with new developments in genome assembly and sequencing technology.
 
 [Learn more](Pan-genome_analysis.md)
 
