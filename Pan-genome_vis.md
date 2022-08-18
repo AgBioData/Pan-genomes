@@ -120,3 +120,20 @@ Cons:
 Benedict Paten, Daniel R Zerbino,  Sequence tube maps: making graph 
 genomes intuitive to commuters, Bioinformatics, Volume 35, Issue 24, 15 December 2019, Pages 5318–5320, [https://doi.org/10.1093/bioinformatics/btz597](https://doi.org/10.1093/bioinformatics/btz597)
 
+
+## MoMI-G
+[MoMI-G](https://github.com/MoMI-G/MoMI-G)[8] is a Modular Multi-scale Integrated Genome Graph Browser, hence the name. It integrates Circos, Sequence Tube Map, and data tables into a single view for simultaneous, multi-scale analysis of you graphical pangenomic data.
+
+Pros:
+* Consumes standard file types
+* Provides multiple, complementary visualizations
+* Actively developed
+
+Cons:
+* Although it scales to large genomes, it does so by only viewing specific slices of the genomes
+
+[8] Yokoyama, T.T., Sakamoto, Y., Seki, M. et al. MoMI-G: modular multi-scale integrated genome graph browser.
+BMC Bioinformatics 20, 548 (2019). [https://doi.org/10.1186/s12859-019-3145-2](https://doi.org/10.1186/s12859-019-3145-2)
+
+
+
