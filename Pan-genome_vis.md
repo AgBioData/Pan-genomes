@@ -73,3 +73,17 @@ Cons:
 
 [4] Eren AM, Esen ÖC, Quince C, Vineis JH, Morrison HG, Sogin ML, Delmont TO. 2015. Anvi’o: an advanced analysis and visualization platform for ‘omics data. PeerJ 3:e1319 [https://doi.org/10.7717/peerj.1319](https://doi.org/10.7717/peerj.1319)
 
+
+## PanX
+[PanX](https://github.com/neherlab/pan-genome-analysis)[5] is a software package for microbial pangenome analysis, visualization, and exploration. It includes pipelines for aligning and clustering protein sequences, building phylogenies, building SNP trees, identifying gene presence/absence, and clustering genes into the core and pan. PanX also includes a variety of visualizations of these analyses.
+
+Pros:
+* Performs a variety of useful analyses and visualizes their results
+* All visualizations are given in a single view that makes cross comparison easy
+
+Cons:
+* Only scales to microbial genomes
+* Not under active development
+
+[5] Wei Ding, Franz Baumdicker, Richard A Neher,  panX: pan-genome analysis and exploration, Nucleic Acids Research, Volume 46, Issue 1, 9 January 2018, Page e5, [https://doi.org/10.1093/nar/gkx977](https://doi.org/10.1093/nar/gkx977)
+
