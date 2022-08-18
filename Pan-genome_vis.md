@@ -60,3 +60,16 @@ Cons:
 [3] Éloi Durant, François Sabot, Matthieu Conte, Mathieu Rouard,  Panache: a web browser-based viewer for linearized pangenomes, Bioinformatics, Volume 37, Issue 23, 1 December 2021, Pages 4556–4558, [https://doi.org/10.1093/bioinformatics/btab688](https://doi.org/10.1093/bioinformatics/btab688)
 
 
+## Anvi'o
+[Anvi'o](https://anvio.org/)[4] is an analysis and visualization platform for 'omics data, including pipelines for microbial pangenomic data. These pipelines can generate informative visualizations, such as Circos diagrams of mean coverage and UpSet plots of gene content.
+
+Pros:
+* Pipelines are well tested and work on common file types
+* Visualizations are useful
+
+Cons:
+* Only scales to microbial genomes
+* Anvi'o is a large suit of tools with a steep learning curve
+
+[4] Eren AM, Esen ÖC, Quince C, Vineis JH, Morrison HG, Sogin ML, Delmont TO. 2015. Anvi’o: an advanced analysis and visualization platform for ‘omics data. PeerJ 3:e1319 [https://doi.org/10.7717/peerj.1319](https://doi.org/10.7717/peerj.1319)
+
