@@ -28,3 +28,19 @@ Cons:
 [1] Ryan R. Wick, Mark B. Schultz, Justin Zobel, Kathryn E. Holt,  Bandage: interactive visualization of de novo genome assemblies, Bioinformatics, Volume 31, Issue 20, 15 October 2015, Pages 3350–3352, [https://doi.org/10.1093/bioinformatics/btv383](https://doi.org/10.1093/bioinformatics/btv383)
 
 
+## GfaViz
+
+[GfaViz](https://github.com/ggonnella/gfaviz)[2] is a GFA viewer that explicitly supports variation graphs, i.e. pangenomic graphs. It has a variety of coloring and layout options. Paths embedded in graphs (such as pangenomes) are distinguished using different graph edge and node outline colors. Conventiently, GfaViz supports exporting pictures of graphs as SVG files.
+
+Pros:
+* Visualizes pangenome graphs
+* Visualizes paths embedded in a pangenome graph
+* Visualization is customizable via user interaction
+
+Cons:
+* Not under active development
+* No built-in sequence search
+* Limited documentation
+
+[2] Giorgio Gonnella, Niklas Niehus, Stefan Kurtz,  GfaViz: flexible and interactive visualization of GFA sequence graphs, Bioinformatics, Volume 35, Issue 16, 15 August 2019, Pages 2853–2855, [https://doi.org/10.1093/bioinformatics/bty1046](https://doi.org/10.1093/bioinformatics/bty1046)
+
