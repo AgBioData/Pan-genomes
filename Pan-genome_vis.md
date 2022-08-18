@@ -87,3 +87,18 @@ Cons:
 
 [5] Wei Ding, Franz Baumdicker, Richard A Neher,  panX: pan-genome analysis and exploration, Nucleic Acids Research, Volume 46, Issue 1, 9 January 2018, Page e5, [https://doi.org/10.1093/nar/gkx977](https://doi.org/10.1093/nar/gkx977)
 
+
+## GCV (Genome Context Viewer)
+[GCV](https://github.com/legumeinfo/gcv)[6] is a visual data-mining tool that allows users to search across multiple providers of genome data for regions with similarly annotated content that may be aligned and visualized at the level of their shared functional elements. Visualizations include micro-synteny tracks, macro-synteny (chromosome) blocks, pairwise dots plots, and Circos diagrams.
+
+Pros:
+* Only requires annotated genomes
+* All analyses are performed on-the-fly with tuneable algorithms
+* Actively developed
+
+Cons:
+* Only operates at the genic level
+* Microservices architecture is complex
+
+[6] Alan Cleary, Andrew Farmer,  Genome Context Viewer: visual exploration of multiple annotated genomes using microsynteny, Bioinformatics, Volume 34, Issue 9, 01 May 2018, Pages 1562–1564, [https://doi.org/10.1093/bioinformatics/btx757](https://doi.org/10.1093/bioinformatics/btx757)
+
