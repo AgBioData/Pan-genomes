@@ -82,7 +82,7 @@ One approach to determining gene function is to construct pan-genes that include
 Example showing how pan-genome analyis helped identify disease resistance genes: \
 [Gao, L., Gonda, I., Sun, H. et al. The tomato pan-genome uncovers new genes and a rare allele regulating fruit flavor. Nat Genet 51, 1044–1051 (2019).](https://doi.org/10.1038/s41588-019-0410-2)
   
-As a pangenome captures all gene variants found in the sequenced individuals, it is possible to identify a subset of individuals representing gene absence as well as each diverse haplotype. This subset of individuals can then be assessed to determine the impact of this diversity on crop traits. Pangenomes can also identify genes that lack significant haplotype diversity. In these cases, teh introduction of diversity through mutagenesis or genome editing may be required to assess gene function.
+As a pangenome captures all gene variants found in the sequenced individuals, it is possible to identify a subset of individuals representing gene absence as well as each diverse haplotype. This subset of individuals can then be assessed to determine the impact of this diversity on crop traits. Pangenomes can also identify genes that lack significant haplotype diversity. In these cases, the introduction of diversity through mutagenesis or genome editing may be required to assess gene function.
 
 *[Add: types of analyses, types of datasets, file formats, and if available: tutorials]*
   </details>
