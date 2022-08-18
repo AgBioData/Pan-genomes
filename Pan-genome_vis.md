@@ -44,3 +44,19 @@ Cons:
 
 [2] Giorgio Gonnella, Niklas Niehus, Stefan Kurtz,  GfaViz: flexible and interactive visualization of GFA sequence graphs, Bioinformatics, Volume 35, Issue 16, 15 August 2019, Pages 2853–2855, [https://doi.org/10.1093/bioinformatics/bty1046](https://doi.org/10.1093/bioinformatics/bty1046)
 
+
+## Panache
+[Panache](https://github.com/SouthGreenPlatform/panache)[3] is a web-based interface designed for the visualization of linearized pangenomes. It can be used to show presence/absence information of pangenomic blocks of sequence or genes in a genome browser-like display. It does not provide a method for linearizing the genomes and the data formats it consumes are non-standard.
+
+Pros:
+* Linearized viewer is intuitive to usres familiar with genome browsers
+* Interactive features allow for easy exploration of linearized pangenome
+
+Cons:
+* No method for generating input files provided
+* Doesn't scale well, especially for complex genomes
+* Linearized representation isn't great for representing genomes with complex structures and rearrangements
+
+[3] Éloi Durant, François Sabot, Matthieu Conte, Mathieu Rouard,  Panache: a web browser-based viewer for linearized pangenomes, Bioinformatics, Volume 37, Issue 23, 1 December 2021, Pages 4556–4558, [https://doi.org/10.1093/bioinformatics/btab688](https://doi.org/10.1093/bioinformatics/btab688)
+
+
