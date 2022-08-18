@@ -1,5 +1,5 @@
 ### Constructing and analyzing Pan-Genomes ###
-[Return to top page](Pan-genome_resource.md)
+[Return to top page](Pan-genome_resource.md#analysis)
 
 The construction and analysis of pan-genomes remains a young and rapidly changing field. Nonetheless, well-documented and reproducible pipelines are needed, but rarely found.
 
@@ -9,4 +9,4 @@ A good review of the state of pan-genome research as of 2020 can be found in [Ve
 
 A slide deck from 2022 summarizing pan-genome analysis and visualization software can be seen [here](https://drive.google.com/file/d/1rU0tzl2uIhP9xk8egJX4IzTPQC3QJNn8/view?usp=sharing).
 
-*[Additional content goes here...]*
+*[Add a note about use of assembly metrics?]*
