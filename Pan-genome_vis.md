@@ -136,4 +136,17 @@ Cons:
 BMC Bioinformatics 20, 548 (2019). [https://doi.org/10.1186/s12859-019-3145-2](https://doi.org/10.1186/s12859-019-3145-2)
 
 
+## PGV (Pangenome Graph Viewer)
+[PGV](https://github.com/ucrbioinfo/PGV)[9] is a pipeline for the reference-agnostic representation and visualization of pangenomes. The pipeline is based on progressiveMauve and the visualizations are based the concensus ordering of the computed blocks.
 
+Pros:
+* Reference-agnostic
+* Can handle large genomes
+
+Cons:
+* Not under active development
+* Use of progressiveMauve limits scalability
+* Species with complex structures could be hard to interpret in context of concensus ordering
+
+[9] Liang, Q., Lonardi, S. Reference-agnostic representation and visualization of pan-genomes.
+BMC Bioinformatics 22, 502 (2021). [https://doi.org/10.1186/s12859-021-04424-w](https://doi.org/10.1186/s12859-021-04424-w)
