@@ -102,3 +102,21 @@ Cons:
 
 [6] Alan Cleary, Andrew Farmer,  Genome Context Viewer: visual exploration of multiple annotated genomes using microsynteny, Bioinformatics, Volume 34, Issue 9, 01 May 2018, Pages 1562–1564, [https://doi.org/10.1093/bioinformatics/btx757](https://doi.org/10.1093/bioinformatics/btx757)
 
+
+## Sequence Tube Maps
+[Sequence Tube Maps](https://github.com/vgteam/sequenceTubeMap)[7] is a tool for visualizing genomic sequence graphs built using vg, i.e. acyclic graphs. The visualization is akin to multiple sequence alignments but better handles structures like indels.
+
+Pros:
+* Easy to interpret if already familiar with multiple alignment visualizations
+* Supports vg file types
+* Interactive
+* Actively developed
+
+Cons:
+* Doesn't scale to large genomes
+* Linear requirement limits what genomes can be visualized
+
+[7] Wolfgang Beyer, Adam M Novak, Glenn Hickey, Jeffrey Chan, Vanessa Tan, 
+Benedict Paten, Daniel R Zerbino,  Sequence tube maps: making graph 
+genomes intuitive to commuters, Bioinformatics, Volume 35, Issue 24, 15 December 2019, Pages 5318–5320, [https://doi.org/10.1093/bioinformatics/btz597](https://doi.org/10.1093/bioinformatics/btz597)
+
